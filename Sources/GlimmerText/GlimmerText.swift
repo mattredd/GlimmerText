@@ -1,6 +1,7 @@
 import SwiftUI
 
 @available(macOS 12, iOS 15, *)
+private
 struct GlimmerView: View {
     @Environment(\.layoutDirection) var layoutDirection
     @State private var startTime = Date()
